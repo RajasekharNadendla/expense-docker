@@ -1,7 +1,7 @@
 name: expense
 volumes:
-  - mysql:
-      external: true
+  mysql:
+    external: true
 services:
   mysql:
     image:  mysql:v1.0
