@@ -1,4 +1,5 @@
 name: expense
+#if we do not add the network it will create the network by default (expense_default)
 volumes:
   mysql:
     external: true
